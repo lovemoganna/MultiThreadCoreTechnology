@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>闭包和作用域</title>
+</head>
+<body>
+<script>
+    var i;
+    for (i = 0; i < 10; i++) {
+        //我们需要将 i 的每个值传进来.从而声明10个函数.
+        (function (i) {
+            var a = document.createElement("a");
+            a.innerHTML = i + "<br>";// <a>i </>
+            a.addEventListener("click", function (e) {
+                e.preventDefault();//通知 Web 浏览器不要执行与事件关联的默认动作,比如阻止提交表单.
+                alert(i);
+            });
+            // 往body里面插入子元素a
+            document.body.appendChild(a);
+        })(i);
+    }
+
+</script>
+</body>
+</html>
