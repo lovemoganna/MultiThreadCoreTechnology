@@ -4,7 +4,19 @@
     <bookmark url="file://$PROJECT_DIR$/02-JS基础/03-构造函数.js" line="11" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3af8cc0-0f04-4f80-9d41-bfb31efcbc2b" name="Default" comment="" />
+    <list default="true" id="c3af8cc0-0f04-4f80-9d41-bfb31efcbc2b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-开发环境/webpack/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-开发环境/webpack/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-开发环境/开发环境.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/java多线程01-基本技能.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,7 +28,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07-开发环境/webpack/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -51,16 +81,20 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/07-开发环境/webpack/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="350" />
-    <option name="y" value="67" />
-    <option name="width" value="693" />
-    <option name="height" value="663" />
+    <option name="x" value="454" />
+    <option name="y" value="36" />
+    <option name="width" value="751" />
+    <option name="height" value="602" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -72,15 +106,13 @@
               <item name="JSQ" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSQ" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JSQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSQ" type="462c0819:PsiDirectoryNode" />
-              <item name="03-JS中级" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,15 +148,11 @@
     <list>
       <item itemvalue="Node.js.this.js" />
       <item itemvalue="Node.js.作用域.js" />
-      <item itemvalue="Node.js.作用域链.js" />
-      <item itemvalue="Node.js.闭包.js" />
       <item itemvalue="Node.js.创建10个可以点击的a标签.js" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.创建10个可以点击的a标签.js" />
-        <item itemvalue="Node.js.闭包.js" />
-        <item itemvalue="Node.js.作用域链.js" />
         <item itemvalue="Node.js.作用域.js" />
         <item itemvalue="Node.js.this.js" />
       </list>
@@ -150,29 +178,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54949000" />
+    <option name="totallyTimeSpent" value="55230000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="350" y="67" width="693" height="663" extended-state="0" />
+    <frame x="454" y="36" width="751" height="602" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4888889" weight="0.18832117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910873" visible="true" weight="0.30204082" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22947761" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info id="Structure" order="1" sideWeight="0.51111114" side_tool="true" weight="0.18832117" />
-      <window_info anchor="bottom" id="CSS-X-Fire" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32962963" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32984293" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" sideWeight="0.50089127" side_tool="true" weight="0.24957119" />
+      <window_info anchor="bottom" id="CSS-X-Fire" />
+      <window_info anchor="bottom" id="Terminal" weight="0.42262894" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4888889" weight="0.18832117" />
+      <window_info id="Structure" order="1" sideWeight="0.51111114" side_tool="true" weight="0.18832117" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22947761" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="CSS-X-Fire" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32962963" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +222,42 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/02-JS基础/02-值类型和引用类型的区别.js" />
+    <entry file="file://$PROJECT_DIR$/01-学习方式/01-方法.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="23">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-JS基础/02-值类型和引用类型的区别.js" />
+    <entry file="file://$PROJECT_DIR$/02-JS基础/03-构造函数.js" />
+    <entry file="file://$PROJECT_DIR$/02-JS基础/04-原型链.js" />
+    <entry file="file://$PROJECT_DIR$/02-JS基础/实战中的原型的用法.js" />
+    <entry file="file://$PROJECT_DIR$/02-JS基础/06-原型链练习.js" />
+    <entry file="file://$PROJECT_DIR$/02-JS基础/01-JS基础上.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="333">
+            <caret line="713" lean-forward="true" selection-start-line="713" selection-end-line="713" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-JS基础/05-原型链继承.js" />
+    <entry file="file://$PROJECT_DIR$/03-JS中级/执行上下文.js" />
+    <entry file="file://$PROJECT_DIR$/03-JS中级/往例复习.md" />
+    <entry file="file://$PROJECT_DIR$/03-JS中级/作用域.js" />
+    <entry file="file://$PROJECT_DIR$/03-JS中级/this.js" />
+    <entry file="file://$PROJECT_DIR$/03-JS中级/闭包.js" />
+    <entry file="file://$PROJECT_DIR$/03-JS中级/JS中级.md" />
+    <entry file="file://$PROJECT_DIR$/03-JS中级/demo.html" />
+    <entry file="file://$PROJECT_DIR$/03-JS中级/创建10个可以点击的a标签.js" />
+    <entry file="file://$PROJECT_DIR$/03-JS中级/作用域链.js" />
     <entry file="file://$PROJECT_DIR$/02-JS基础/01-JS基础上.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -381,9 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -398,16 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-JS中级/JS中级.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="141">
-            <caret line="261" column="28" selection-start-line="261" selection-start-column="28" selection-end-line="261" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -429,6 +492,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="67" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JS中级/JS中级.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="3070">
+            <caret line="304" lean-forward="true" selection-start-line="304" selection-end-line="304" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-开发环境/webpack/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-开发环境/webpack/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
