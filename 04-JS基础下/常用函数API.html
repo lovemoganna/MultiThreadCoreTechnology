@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常用函数API练习</title>
+</head>
+<body>
+<script type="text/javascript">
+    //0-10之间的随机数字.
+    var result = Math.random() * 10
+    console.log(result);
+
+    // 当前时间
+    console.log(Date.now());
+
+    var date = new Date();
+    console.log(date);
+    // 年月日
+    console.log(date.getFullYear() + "年" + (date.getMonth() + 1) + "月" + date.getDate() + "日");
+    //时分秒
+    console.log(date.getHours() + "时" + date.getMinutes() + "分" + date.getSeconds() + "秒");
+    //毫秒
+    console.log(date.getMilliseconds() + "毫秒");
+</script>
+
+<script>
+    //0-10之间的随机数.
+    console.log(parseInt(Math.random() * 10));
+    //圆周率
+    console.log(Math.PI);
+</script>
+
+<script>
+    var arr = [4, 2, 1, 5, 6, 7]
+
+    arr.forEach(function (item, index) {
+        console.log(index, item);
+    })
+</script>
+<script>
+    var arr = [4, 2, 1, 5, 6, 7]
+
+    var result = arr.every(function (item, index) {
+        //每个元素都<=7,要求所有元素都满足
+        if (item <= 7) {
+            return true;
+        }
+    })
+    console.log(result);
+
+    var result2 = arr.some(function (item, index) {
+        //存在元素<=4,只要有一个就行.
+        if (item <= 4) {
+            return true;
+        }
+    })
+    console.log(result2);
+
+    //排序
+    var result3 = arr.sort(function (a, b) {
+        return a - b;
+    })
+    console.log(result3);
+
+    //组装map,结果是一个新的数组
+    var result4 = arr.map(function (item, index) {
+        return '<p>' + item + '</p>';
+    })
+    console.log(result4);
+
+    //过滤
+    var result4 = arr.filter(function (item, index) {
+        // 把小于2的数过滤掉.
+        if (item >= 2) {
+            return true;
+        }
+    })
+    console.log(result4);
+</script>
+
+<script>
+    var obj = {
+        x: 1,
+        y: 2,
+        z: 3
+    }
+    
+    var key 
+    for(key in obj){
+        //key是obj本身的属性,不是显示原型中的属性.
+       if(obj.hasOwnProperty(key)){
+           console.log(key,obj[key]);
+       }
+    }
+</script>
+</body>
+</html>

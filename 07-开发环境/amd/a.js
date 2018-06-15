@@ -1,0 +1,10 @@
+define(["./a_util.js"], function (aUtil) {
+    var a = {
+        printDate: function (date) {
+            console.log(aUtil.aGetFormatDate(date));
+            //直接调用即可
+            aUtil.printName();
+        }
+    }
+    return a;
+})

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事件冒泡</title>
+</head>
+<body>
+<div id="div1">
+    <p id="p1">激活</p>
+    <p id="p2">取消</p>
+    <p id="p3">取消</p>
+    <p id="p4">取消</p>
+</div>
+<div id="div2">
+    <p id="p5">取消</p>
+    <p id="p6">取消</p>
+</div>
+<script>
+    var p1= document.getElementById("p1");
+    var body =document.body;
+
+    function bindEvent(elem,type,fn) {
+        elem.addEventListener(type,fn);
+    }
+
+    // 我们先触发绑定在p1上的事件,还会触发绑定在父节点上的事件,然后一级一级的往上触发,这就是事件冒泡的特点.
+    bindEvent(p1,'click',function (e) {
+        //如果不加下面的这段,就会先触发激活,再触发取消.
+        e.stopPropagation();//取消冒泡(也就是触发父级事件)
+        //e.preventDefault();
+        alert("激活!")
+    })
+    bindEvent(body,'click',function (e) {
+        alert("取消!")
+    })
+</script>
+
+<div id="div3">
+    <a href="#">a1</a>
+    <a href="#">a2</a>
+    <a href="#">a3</a>
+    <a href="#">a4</a>
+</div>
+<!--代理-->
+<script>
+    var div3 = document.getElementById("div3");
+    //事件绑定到div3上,根据冒泡原理来触发子元素的事件
+    div3.addEventListener("click",function (e) {
+        e.stopPropagation();
+        var target = e.target;
+        if(target.nodeName === 'A'){
+            alert(target.innerHTML)
+        }
+    })
+</script>
+
+<!--完善通用绑定事件的函数-->
+<script>
+
+</script>
+</body>
+</html>

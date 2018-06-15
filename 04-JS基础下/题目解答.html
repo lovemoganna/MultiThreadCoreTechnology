@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>题目解答</title>
+</head>
+<body>
+<!--目的是要获取 2018-06-06这样的数据类型-->
+<script>
+
+    //需要知道字符串拼接,并且注意几个点
+
+    //月份需要+1,个位数字如果<10.前面补0.天数亦是如此.
+
+    function formatDate(dt) {
+        if (!dt) {
+            dt = new Date();
+        }
+        var year = dt.getFullYear();
+        var month = dt.getMonth() + 1;
+        var date = dt.getDate();
+        if (month < 10) {
+            month = '0' + month;
+        }
+        if (date < 10) {
+            date = '0' + date;
+        }
+        return year + '-' + month + '-' + date;
+    }
+
+    var date = new Date();
+    var result = formatDate(date);
+    console.log(result);
+</script>
+
+<!--获取随机数,要求长度一致的字符串格式-->
+<script>
+    function getRandom(randomMath) {
+        //因为生成的默认随机数后面是有17位小数的.
+        var randomChar = randomMath + '0000000000';//拼接字符串,如果随机数是0的情况,需要解决这个bug.
+        var random = randomChar.slice(0, 10);//截取前10位
+        return random;
+    }
+
+    var math = Math.random();
+    getRandom(math);
+</script>
+
+<!--能遍历对象和数组-->
+<script>
+    function forEach(obj, fn) {
+        var key;
+        //obj是数组的情况
+        if (obj instanceof Array) {
+            obj.forEach(function (item, index) {
+                fn(index, item)
+            })
+        } else {
+            //obj是对象的情况
+            for(key in obj){
+                console.log(key,obj[key]);
+            }
+        }
+    }
+    
+    var obj =[1,3,5,7]
+    forEach(obj,function (index, item) {
+        console.log(index,item);
+    })
+
+    var obj ={x:100,y:200}
+    forEach(obj,function (key,value) {
+        console.log(key,value);
+    })
+</script>
+</body>
+
+</html>
